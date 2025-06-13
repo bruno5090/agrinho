@@ -1,60 +1,103 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #f8f8f8;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fff9f2;
+  color: #222;
 }
 
 header {
-    background: #e07a5f;
-    color: #fff;
-    padding: 2em 0;
-    text-align: center;
+  background: #1b5e20;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+nav a.active,
+nav a:hover {
+  background: #388e3c;
+  border-radius: 4px;
 }
 
 main {
-    max-width: 900px;
-    margin: 2em auto;
-    padding: 1em;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  max-width: 960px;
+  margin: 30px auto;
+  padding: 0 16px;
 }
 
-section.comida {
-    margin-bottom: 2em;
-    padding-bottom: 1em;
-    border-bottom: 1px solid #eee;
+section.intro {
+  text-align: center;
 }
 
-section.comida:last-child {
-    border-bottom: 0;
+.main-img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+  margin: 16px 0;
 }
 
-section.comida img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin: 1em 0;
-    display: block;
+.img-attribution {
+  font-size: 0.9em;
 }
 
-figcaption small {
-    display: block;
-    margin-bottom: 1em;
-    color: #888;
-    font-size: 0.95em;
+.regioes {
+  margin-top: 40px;
+}
+
+.regioes ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.regioes ul li {
+  background: #ffe0b2;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 1.1em;
+}
+
+.regioes-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.regioes-lista section {
+  flex: 1 1 180px;
+  background: #ffecb3;
+  border-radius: 8px;
+  padding: 10px 18px;
+  margin-bottom: 20px;
 }
 
 footer {
-    background: #22223b;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-    margin-top: 2em;
-    font-size: 0.95em;
-}
-
-a {
-    color: #3d405b;
-    text-decoration: underline;
+  background: #1b5e20;
+  color: #fff;
+  text-align: center;
+  padding: 16px 0;
+  margin-top: 40px;
 }
