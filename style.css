@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #e07a5f;
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+main {
+    max-width: 900px;
+    margin: 2em auto;
+    padding: 1em;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+section.comida {
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #eee;
+}
+
+section.comida:last-child {
+    border-bottom: 0;
+}
+
+section.comida img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 1em 0;
+    display: block;
+}
+
+figcaption small {
+    display: block;
+    margin-bottom: 1em;
+    color: #888;
+    font-size: 0.95em;
+}
+
+footer {
+    background: #22223b;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+    font-size: 0.95em;
+}
+
+a {
+    color: #3d405b;
+    text-decoration: underline;
+}
